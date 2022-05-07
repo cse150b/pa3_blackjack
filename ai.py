@@ -22,7 +22,7 @@ class Agent:
 
         # For Q-learning values
         self.Q_values = {}   # Dictionary: Store the Q-Learning value of each state and action
-        self.N_Q = {}        # Dictionary: Store the number of samples of each state
+        self.N_Q = {}        # Dictionary: Store the number of samples of each state for each action
 
         # Initialization of the values
         for s in states:
